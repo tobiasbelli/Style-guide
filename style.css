@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'proxima Nova alt';
+}
+
+a{
+  text-decoration: none;
+  color: #cae4e3;
+  padding-left: 10px;
+}
+
+a:hover{
+  color: #f2cac1;
+}
+
+ul li {
+  list-style: none;
+  height: 50px;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+ul li i {
+  min-width: 35px;
+  border-radius: 12px;
+
+}
+
+i {
+  line-height: 50px;
+}
+
+.link-navn{
+  line-height: 50px;
+}
+
+
+#ucl{
+  width: 100%;
+  max-width: 15rem;
+}
+
+#nav-overskrift{
+  font-size: 1.5rem;
+}
+
+.v0 { grid-area: a;}
+.v1 { grid-area: b;}
+.v2 { grid-area: c;}
+
+.grid{
+    display: grid;
+    grid-template-areas:
+      'a a'
+      'b c';
+    grid-template-columns: 1fr 5fr;
+
+  }
+
+.v0{
+  padding: 2rem;
+  background-color: #cae4e3;
+}
+
+
+  .v1{
+    background-color: #00454e;
+    color: #cae4e3;
+    height: 1000px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+
+  .v2{
+    padding-left: 2rem;
+    background-color: #white;
+  }
