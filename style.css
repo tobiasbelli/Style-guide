@@ -8,35 +8,30 @@
 a{
   text-decoration: none;
   color: #cae4e3;
+  padding: 5px;
   padding-left: 10px;
 }
 
-a:hover{
-  color: #f2cac1;
-}
-
 ul li {
-  list-style: none;
   height: 50px;
   font-size: 20px;
   width: 100%;
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
-}
-
-ul li i {
-  min-width: 35px;
-  border-radius: 12px;
+  margin-top: 15px;
 
 }
 
 i {
-  line-height: 50px;
+  font-size: 30px;
 }
 
-.link-navn{
-  line-height: 50px;
+a:hover{
+  background-color: #cae4e3;
+  border-radius: 2%;
+  color: #00454e;
+}
+
+.link-navn i{
+  padding-top: 20px;
 }
 
 
